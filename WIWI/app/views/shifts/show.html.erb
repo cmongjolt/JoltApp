@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Userid:</strong>
+  <%= @shift.userId %>
+</p>
+
+<p>
+  <strong>Positionid:</strong>
+  <%= @shift.positionId %>
+</p>
+
+<p>
+  <strong>Starttime:</strong>
+  <%= @shift.startTime %>
+</p>
+
+<p>
+  <strong>Endtime:</strong>
+  <%= @shift.endTime %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @shift.notes %>
+</p>
+
+<%= link_to 'Edit', edit_shift_path(@shift) %> |
+<%= link_to 'Back', shifts_path %>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  userId: MyString
+  positionId: MyString
+  startTime: MyString
+  endTime: MyString
+  notes: MyString
+
+two:
+  userId: MyString
+  positionId: MyString
+  startTime: MyString
+  endTime: MyString
+  notes: MyString
